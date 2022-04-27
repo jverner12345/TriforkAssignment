@@ -10,7 +10,7 @@ using M = Models.Concrete;
 
 namespace Logic.Concrete
 {
-    public class LedgerManager : BaseManager<Ledger>
+    public class LedgerManager : BaseManager<Ledger>, ILedger<Ledger>
     {
         public LedgerManager(StoreBuild<Ledger> Repo) : base(Repo)
         {
@@ -28,7 +28,7 @@ namespace Logic.Concrete
                                                     .Where(x => x.PaymentType == "Payment")
                                                     .Sum(x => x.Cost);
             decimal _percentageRemaining = (_totalPaid / _totalCost) * 100;
-            _ledger.PercentageRemaining = _percentageRemaining;
+            _ledger.PercentageRemaining = 100 - _percentageRemaining;
             _ledger.TotalCost = _totalCost;
             _ledger.TotalPaid = _totalPaid;
             _ledger.SettledDate = DateTime.Now;

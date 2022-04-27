@@ -41,7 +41,7 @@ namespace Models.Concrete
             Transactions = transactions;
             _totalAmount = totalAmount;
             _totalPaid = Transactions.Sum(x => x.Cost);
-            _amountOwed = Members == 0 ? _totalAmount : (_totalAmount / Members);
+            _amountOwed = Members == 0 ? _totalAmount : _totalAmount - _totalPaid;
         }
     }
     public class Payment

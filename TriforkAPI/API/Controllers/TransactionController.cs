@@ -129,13 +129,29 @@ namespace API.Controllers
         {
             try
             {
+                Group group = _group.GetById(Request.GroupId);
+                if(group == null || group.Participants.Count == 0)
+                {
+                    return BadRequest("No group members found ot process this transaction");
+                }
+                if (group.Participants.Select(x => $"{x.FirstName} {x.LastName}").Contains(Request.Payer) == false)
+                {
+                    return BadRequest("Payer and Payee names are made up by Group members First and Last names. To create a transaction they must match");
+                }
+                if(Request.Payee != null && Request.PaymentType == "Payment")
+                {
+                    if (group.Participants.Select(x => $"{x.FirstName} {x.LastName}").Contains(Request.Payee) == false)
+                    {
+                        return BadRequest("Payer and Payee names are made up by Group members First and Last names. To create a transaction they must match.");
+                    }
+                }
                 _manager.Create(Request);
                 return StatusCode(201);
             }
             catch (Exception e)
             {
                 _logger.LogError(e.Message);
-                throw;
+                return BadRequest(e.Message);
             }
         }
     }
