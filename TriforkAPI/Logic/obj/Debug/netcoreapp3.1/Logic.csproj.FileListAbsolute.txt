@@ -1,0 +1,15 @@
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Logic\bin\Debug\netcoreapp3.1\Logic.deps.json
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Logic\bin\Debug\netcoreapp3.1\Logic.dll
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Logic\bin\Debug\netcoreapp3.1\Logic.pdb
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Logic\bin\Debug\netcoreapp3.1\Models.dll
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Logic\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Logic\bin\Debug\netcoreapp3.1\Models.pdb
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Logic\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Logic\obj\Debug\netcoreapp3.1\Logic.csproj.AssemblyReference.cache
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Logic\obj\Debug\netcoreapp3.1\Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Logic\obj\Debug\netcoreapp3.1\Logic.AssemblyInfoInputs.cache
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Logic\obj\Debug\netcoreapp3.1\Logic.AssemblyInfo.cs
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Logic\obj\Debug\netcoreapp3.1\Logic.csproj.CoreCompileInputs.cache
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Logic\obj\Debug\netcoreapp3.1\Logic.csproj.CopyComplete
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Logic\obj\Debug\netcoreapp3.1\Logic.dll
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Logic\obj\Debug\netcoreapp3.1\Logic.pdb

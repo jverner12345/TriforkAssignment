@@ -6,14 +6,24 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.WebPages" Version="3.2.8" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.24" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NLog" Version="5.0.0-rc2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Logic\Logic.csproj" />
     <ProjectReference Include="..\Repository\Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Contracts">
+      <HintPath>..\..\..\..\..\source\repos\Logger\LoggerServices\bin\Debug\net5.0\Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="LoggerServices">
+      <HintPath>..\..\..\..\..\source\repos\Logger\LoggerServices\bin\Debug\net5.0\LoggerServices.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

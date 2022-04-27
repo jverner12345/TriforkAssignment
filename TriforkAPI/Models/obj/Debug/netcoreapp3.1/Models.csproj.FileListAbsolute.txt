@@ -1,0 +1,9 @@
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Models\bin\Debug\netcoreapp3.1\Models.deps.json
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Models\bin\Debug\netcoreapp3.1\Models.dll
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Models\bin\Debug\netcoreapp3.1\Models.pdb
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Models\obj\Debug\netcoreapp3.1\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfoInputs.cache
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfo.cs
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Models\obj\Debug\netcoreapp3.1\Models.dll
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\Models\obj\Debug\netcoreapp3.1\Models.pdb

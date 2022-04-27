@@ -52,28 +52,28 @@
           }
         }
       },
-      "Microsoft.AspNetCore.JsonPatch/5.0.16": {
+      "Microsoft.AspNetCore.JsonPatch/3.1.24": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll": {
-            "assemblyVersion": "5.0.16.0",
-            "fileVersion": "5.0.1622.16706"
+            "assemblyVersion": "3.1.24.0",
+            "fileVersion": "3.100.2422.18006"
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/5.0.16": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/3.1.24": {
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "5.0.16",
+          "Microsoft.AspNetCore.JsonPatch": "3.1.24",
           "Newtonsoft.Json": "13.0.1",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
         "runtime": {
-          "lib/net5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
-            "assemblyVersion": "5.0.16.0",
-            "fileVersion": "5.0.1622.16706"
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
+            "assemblyVersion": "3.1.24.0",
+            "fileVersion": "3.100.2422.18006"
           }
         }
       },
@@ -429,6 +429,14 @@
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.2.22727"
+          }
+        }
+      },
+      "NLog/5.0.0-rc2": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.664"
           }
         }
       },
@@ -1150,7 +1158,8 @@
         "dependencies": {
           "Logic": "1.0.0",
           "Microsoft.AspNet.WebPages": "3.2.8",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "5.0.16",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.24",
+          "NLog": "5.0.0-rc2",
           "Newtonsoft.Json": "13.0.1",
           "Repository": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3"
@@ -1161,6 +1170,7 @@
       },
       "Logic/1.0.0": {
         "dependencies": {
+          "Models": "1.0.0",
           "Repository": "1.0.0"
         },
         "runtime": {
@@ -1173,11 +1183,24 @@
         }
       },
       "Repository/1.0.0": {
-        "dependencies": {
-          "Models": "1.0.0"
-        },
         "runtime": {
           "Repository.dll": {}
+        }
+      },
+      "LoggerServices/1.0.0.0": {
+        "runtime": {
+          "LoggerServices.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Contracts/1.0.0.0": {
+        "runtime": {
+          "Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -1209,19 +1232,19 @@
       "path": "microsoft.aspnet.webpages/3.2.8",
       "hashPath": "microsoft.aspnet.webpages.3.2.8.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.JsonPatch/5.0.16": {
+    "Microsoft.AspNetCore.JsonPatch/3.1.24": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XSJNa2LNpg8bwHb73jOzh+gmQR+hx+AQb+oWUXDeZPREG5Y1GNJ7ikiBENjfNjys41UVDepPO6I1CqjSV/pOFA==",
-      "path": "microsoft.aspnetcore.jsonpatch/5.0.16",
-      "hashPath": "microsoft.aspnetcore.jsonpatch.5.0.16.nupkg.sha512"
+      "sha512": "sha512-7nGx1l3l0H4P94aclM469JYNDv9dlE8CCxms6H3HuanlDAVvXhwN7kADZmtEfCJZP46C52iXh3fq2zuIDEG7oQ==",
+      "path": "microsoft.aspnetcore.jsonpatch/3.1.24",
+      "hashPath": "microsoft.aspnetcore.jsonpatch.3.1.24.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/5.0.16": {
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/3.1.24": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-AlCb0Q1x/KNpxjhBAYx3VhuS42HlcONOXszHMPTJ301AklvAOLD3pc6QH+bwteEb7JSkZwXROMLeRHWyZlvbxw==",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/5.0.16",
-      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.5.0.16.nupkg.sha512"
+      "sha512": "sha512-M+/zOlvlbb5I3e+f0Ic92sbRNWk0k3Sk5KAjh3jJWBxpFyMQ2K+UMP8Eox5tQwbQcu21s0Wwpa+3mfU7bqEMlQ==",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/3.1.24",
+      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.3.1.24.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/16.9.4": {
       "type": "package",
@@ -1320,6 +1343,13 @@
       "sha512": "sha512-QYFyxhaABwmq3p/21VrZNYvCg3DaEoN/wUuw5nmfAf0X3HLjgupwhkEWdgfb9nvGAUIv3osmZoD3kKl4jxEmYQ==",
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    },
+    "NLog/5.0.0-rc2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F+y9t2obY9y0bxAaxvJJtbpBqFWkkqXZjMJPeT3SLqVvSNZq7aFax5cu57hkssHSDF1C/RsHT5uymcmPXgY9Vw==",
+      "path": "nlog/5.0.0-rc2",
+      "hashPath": "nlog.5.0.0-rc2.nupkg.sha512"
     },
     "NuGet.Frameworks/5.0.0": {
       "type": "package",
@@ -1919,6 +1949,16 @@
     },
     "Repository/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LoggerServices/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contracts/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

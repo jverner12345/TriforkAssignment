@@ -1,4 +1,5 @@
-﻿using System;
+﻿using API.Attribute;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -46,11 +47,11 @@ namespace Models.Concrete
     public class Payment
     {
         public Guid GroupId { get; set; }
-        public string Name { get; set; }
         [Required(ErrorMessage = "Cost is required")]
         public decimal Cost { get; set; }
         public DateTime CreateDate { get; set; }
-        [Required(ErrorMessage = "Payment type is required")]
+        [Required(ErrorMessage = "Expense name is required.")]
+        [PaymentCheck(ErrorMessage = "Either 'Payment' or 'Expense' is required")]
         public string PaymentType { get; set; }
 
     }

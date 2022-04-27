@@ -23,7 +23,6 @@ namespace TriforkTesting
                     Payer = "Test",
                     PaymentType = "Expense",
                     ExpenseName = "job",
-                    Name = "Name"
                 }
          };
 
@@ -107,8 +106,7 @@ namespace TriforkTesting
                 Payee = "Jamie",
                 Payer = "Test",
                 PaymentType = "Expense",
-                ExpenseName = "job",
-                Name = "Name"
+                ExpenseName = "job"
             };
             // Act  
             _manager.Create(_t);

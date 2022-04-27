@@ -60,16 +60,16 @@ namespace API.Controllers
         [HttpPost]
         public IActionResult Create([FromBody] Group Request)
         {
-            try
-            {
-                _manager.Create(Request);
-                return StatusCode(201);
-            }
-            catch (Exception e)
+            //try
+            //{
+            _manager.Create(Request);
+            return Ok(Request.Id);
+            //}
+            /*catch (Exception e)
             {
                 _logger.LogError(e.Message);
                 throw;
-            }
+            }*/
         }
     }
 }

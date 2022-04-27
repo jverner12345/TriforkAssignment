@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{580CADDF-B3BB-4288-B4AE-98A27737C86E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{2B739788-2430-4007-B25E-B92E5591A2B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logic", "Logic\Logic.csproj", "{2B739788-2430-4007-B25E-B92E5591A2B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{7D112F4F-FB9A-488E-8F56-43A22F571613}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{7D112F4F-FB9A-488E-8F56-43A22F571613}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriforkTesting", "TriforkTesting\TriforkTesting.csproj", "{D3089E6F-7B15-4B46-8E46-493D78F959B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriforkTesting", "TriforkTesting\TriforkTesting.csproj", "{D3089E6F-7B15-4B46-8E46-493D78F959B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

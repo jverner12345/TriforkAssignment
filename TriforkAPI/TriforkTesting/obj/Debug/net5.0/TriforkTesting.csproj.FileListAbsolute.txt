@@ -1,4 +1,9 @@
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\obj\Debug\net5.0\TriforkTesting.csproj.AssemblyReference.cache
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\obj\Debug\net5.0\TriforkTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\obj\Debug\net5.0\TriforkTesting.AssemblyInfoInputs.cache
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\obj\Debug\net5.0\TriforkTesting.AssemblyInfo.cs
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\obj\Debug\net5.0\TriforkTesting.csproj.CoreCompileInputs.cache
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\testhost.dll
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\API.deps.json
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\API.runtimeconfig.json
@@ -35,6 +40,7 @@ C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\ne
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\NLog.dll
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\NuGet.Frameworks.dll
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -112,15 +118,14 @@ C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\ne
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\Logic.dll
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\Models.dll
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\Repository.dll
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\LoggerServices.dll
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\Contracts.dll
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\API.pdb
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\Logic.pdb
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\Models.pdb
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\Repository.pdb
-C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\obj\Debug\net5.0\TriforkTesting.csproj.AssemblyReference.cache
-C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\obj\Debug\net5.0\TriforkTesting.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\obj\Debug\net5.0\TriforkTesting.AssemblyInfoInputs.cache
-C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\obj\Debug\net5.0\TriforkTesting.AssemblyInfo.cs
-C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\obj\Debug\net5.0\TriforkTesting.csproj.CoreCompileInputs.cache
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\LoggerServices.pdb
+C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\bin\Debug\net5.0\Contracts.pdb
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\obj\Debug\net5.0\TriforkTesting.csproj.CopyComplete
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\obj\Debug\net5.0\TriforkTesting.dll
 C:\Users\rambo\OneDrive\Documents\Trifork\TriforkAPI\TriforkTesting\obj\Debug\net5.0\ref\TriforkTesting.dll

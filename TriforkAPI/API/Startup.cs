@@ -31,6 +31,7 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.ConfigureLoggerService();
             services.FakeStore();
             services.ConfigureRepo();
             services.AddTransient<GroupManager>();
@@ -65,6 +66,7 @@ namespace API
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "payroc_shortener v1"));
             }
+            app.UseCustomExtensionHandler();
 
             app.UseHttpsRedirection();
 

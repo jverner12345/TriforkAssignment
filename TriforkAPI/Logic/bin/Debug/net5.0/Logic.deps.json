@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "Logic/1.0.0": {
         "dependencies": {
+          "Models": "1.0.0",
           "Repository": "1.0.0"
         },
         "runtime": {
@@ -20,9 +21,6 @@
         }
       },
       "Repository/1.0.0": {
-        "dependencies": {
-          "Models": "1.0.0"
-        },
         "runtime": {
           "Repository.dll": {}
         }

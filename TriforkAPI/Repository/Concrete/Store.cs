@@ -1,5 +1,4 @@
-﻿using Models.Concrete;
-using Repository.Interface;
+﻿using Repository.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
