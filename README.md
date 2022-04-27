@@ -1,4 +1,4 @@
-# Tri-share
+# Tri-Share
 Usage
 
 
